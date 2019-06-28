@@ -1,9 +1,9 @@
+import { getDataFromTree } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-client';
 import { AppProps, default as NextApp, DefaultAppIProps } from 'next/app';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { getDataFromTree } from 'react-apollo';
 import initApollo from './apollo';
 import {
   ApolloContext,

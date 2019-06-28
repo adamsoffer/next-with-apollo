@@ -41,7 +41,7 @@ Wrap Next's `App` in `pages/_app.js`
 
 ```js
 import App, { Container } from 'next/app'
-import { ApolloProvider } from 'react-apollo'
+import { ApolloProvider } from '@apollo/react-hooks'
 import withApollo from '../lib/withApollo'
 
 class MyApp extends App {
